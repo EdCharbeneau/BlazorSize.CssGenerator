@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorPro.BlazorSize" Version="3.2.1" />
+    <PackageReference Include="BlazorPro.BlazorSize.CssGenerator" Version="0.0.2-pre-1" />
+    <AdditionalFiles Include="wwwroot/css/bootstrap/bootstrap.min.css" Namespace="Bootstrap" />
+    <AdditionalFiles Include="wwwroot/css/site.css" />
+  </ItemGroup>
+
+</Project>
