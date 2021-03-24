@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="BlazorPro.BlazorSize" Version="3.2.1" />
-    <PackageReference Include="BlazorPro.BlazorSize.CssGenerator" Version="0.0.2-pre-1" />
+    <ProjectReference Include="..\BlazorSize.CssGenerator\BlazorPro.BlazorSize.CssGenerator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
     <AdditionalFiles Include="wwwroot/css/bootstrap/bootstrap.min.css" Namespace="Bootstrap" />
     <AdditionalFiles Include="wwwroot/css/site.css" />
   </ItemGroup>

@@ -6,19 +6,12 @@
     <li class="list-group-item @Active(IsMedium)">Medium</li>
     <li class="list-group-item @Active(IsSmall)">Small</li>
 </ul>
-<MediaQueryList>
-    <MediaQuery Media="@Bootstrap.Breakpoints.min_width_992px" @bind-Matches="IsLarge" />
-    @{
-        string bpOnlyMedium = Bootstrap.Breakpoints.min_width_768px + " and " + Bootstrap.Breakpoints.max_width_991_98px;
-        <MediaQuery Media="@bpOnlyMedium" @bind-Matches="IsMedium" />
-    }
-    <MediaQuery Media="@Bootstrap.Breakpoints.max_width_575_98px" @bind-Matches="IsSmall" />
-</MediaQueryList>
+
 @code {
     Func<bool, string> Active = state => state ? "active" : "";
     // The name 'Bootstrap' does not exist in the current context
     // Commenting out the line below makes the project run without errors
-    string foo = Bootstrap.Breakpoints.min_width_768px;
+    //string foo = Bootstrap.Breakpoints.min_width_768px;
     bool IsLarge = false;
     bool IsMedium = false;
     bool IsSmall = false;

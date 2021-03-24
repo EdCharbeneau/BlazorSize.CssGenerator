@@ -64,6 +64,7 @@ namespace BlazorPro.BlazorSize.CssGenerator
     {
         public void Execute(GeneratorExecutionContext context)
         {
+            context.AddSource("Test", SourceText.From("public static class Testing { public const int Test = 42; }", Encoding.UTF8));
             var groups = GroupFilesByNamespace(context);
 
             foreach (string name in groups.Keys)
