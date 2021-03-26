@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPro.BlazorSize.CssGenerator", "BlazorSize.CssGenerator\BlazorPro.BlazorSize.CssGenerator.csproj", "{BBF78233-2FA7-4161-99A7-0EB785C8678A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSample", "BlazorSample\BlazorSample.csproj", "{C4BF5DDB-D181-4E68-8432-8C12849586B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSample.Net6", "BlazorSample.Net6\BlazorSample.Net6.csproj", "{CAA5CEEA-42F9-4C8F-B18B-8EF4C8A3C196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BBF78233-2FA7-4161-99A7-0EB785C8678A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF78233-2FA7-4161-99A7-0EB785C8678A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF78233-2FA7-4161-99A7-0EB785C8678A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4BF5DDB-D181-4E68-8432-8C12849586B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4BF5DDB-D181-4E68-8432-8C12849586B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4BF5DDB-D181-4E68-8432-8C12849586B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4BF5DDB-D181-4E68-8432-8C12849586B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA5CEEA-42F9-4C8F-B18B-8EF4C8A3C196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA5CEEA-42F9-4C8F-B18B-8EF4C8A3C196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA5CEEA-42F9-4C8F-B18B-8EF4C8A3C196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA5CEEA-42F9-4C8F-B18B-8EF4C8A3C196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
